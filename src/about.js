@@ -1,7 +1,7 @@
-export function loadMenu() {
+export function loadAbout() {
   const content = document.querySelector("#content");
 
   content.innerHTML = `
-    <h1>Menu</h2>
+    <h1>About</h2>
   `;
 };
